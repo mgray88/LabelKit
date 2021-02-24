@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/edudnyk/LabelKit'
   s.authors = { 'Eugene Dudnyk' => 'edudnyk@gmail.com' }
   s.source = { :git => 'https://github.com/edudnyk/LabelKit.git', :tag => s.version }
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '10.2'
   s.tvos.deployment_target = '12.0'
   s.source_files = 'Sources/**/*.swift'
   s.swift_version = '5.0'
